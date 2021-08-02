@@ -1,0 +1,41 @@
+body{
+  background-color: black;
+}
+h1{
+  color: white;
+}
+h3{
+  color: white;
+}
+.div1 h3{
+  
+  color: red;
+}
+.div2 h3{
+  color: blue;
+}
+.div1{
+  background-color: lightsteelblue;
+}
+.div2{
+  background-color: white;
+}
+#button1{
+  font-size: 20px;
+  width: 150px;
+  height: 80px;
+}
+#demo{
+  color: white;
+}
+#button5{
+  margin-top: 0px;
+  font-size: 20px;
+  width: 150px;
+  height: 80px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 13fr 136fr 1260fr 10300fr 73000fr;
+    grid-gap: 20px;
+}
