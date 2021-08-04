@@ -1,0 +1,14 @@
+canvas{
+  width: 400px;
+ border: 1px solid lightgray;
+  
+}
+
+body{
+  text-align: center;
+  margin: 10px;
+}
+button{
+  height: 60px;
+  border: 1px solid lightfray;
+}

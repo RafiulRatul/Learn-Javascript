@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Green screen</title>
+  <link rel="stylesheet" href="./style.css">
 
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1>Green screen</h1>
+
+<canvas id="can1">
+  
+  
+</canvas>
+<canvas id="can2">
+  
+  
+</canvas>
+
+<p> Foreground Image:
+  <input type="file" multiple="false" value="Choose FIle"accept="image/*" id="finput1" onchange="upload1()">
+  
+  Background Image:
+  <input type="file" multiple="false" value="Choose FIle"accept="image/*" id="finput2" onchange="upload2()">
+</p>
+
+<canvas id="can3">
+  
+  
+</canvas>
+<p>
+<input type="button" value="Create Composite" onclick="greenscreen()">
+<input type="button" value="Clear canvas" onclick="clearCanvas3()">
+  </p>
+<!-- partial -->
+  <script src='https://www.dukelearntoprogram.com//course1/common/js/image/SimpleImage.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
