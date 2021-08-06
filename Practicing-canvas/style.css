@@ -1,0 +1,23 @@
+canvas{
+  width: 400px;
+  height: 200px;
+  margin: 10px;
+  border: 1px solid lightgray;
+  
+}
+input[type="button"]{
+  font-size: 20px;
+  padding: 5px;
+  margin: 10px;
+}
+#can1{
+  background-color: blue;
+}
+#can2{
+  background-color: orange;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
