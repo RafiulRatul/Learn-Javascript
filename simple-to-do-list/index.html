@@ -1,1 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - my to do list</title>
+  <link rel="stylesheet" href="./style.css">
 
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1 id="myHeader">TO DO List</h1>
+
+<!-- STEPs 1 and 2 below here  -->
+<div class="grid-container">
+  <input id="input" type="text" placeholder="Enter Task">
+  <br>
+  <br>
+<input id="addButton" type="button" value="Add" onclick="addTask()">
+
+
+</div>
+ <hr>
+
+<ul id="tasks">
+
+  <li>
+
+    <input type="button" class="done" onclick="markDone(this.parentNode)" value="&#x2713;" />
+
+    <input type="button" class="remove" onclick="remove(this.parentNode)" value="&#x2715;" />
+    
+    <input type="button" class="important" onclick="important(this.parentNode)" value="&#33;" />
+
+    make todo list
+
+  </li>
+
+ </ul>
+
+<hr>
+<!-- STEPs 8 and 9 below here  -->
+<div id="divAbout" >
+  <p></p>
+  
+</div>
+<br>
+<input id="about" type="button" value="About" onclick="doAbout()">
+
+<!-- STEP 13 below here  -->
+<input id="clearAbout" type="button" value="Clear About" onclick="clearAbout()">
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
