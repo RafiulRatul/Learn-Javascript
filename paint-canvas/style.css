@@ -1,0 +1,30 @@
+h1{
+  color: Black;
+}
+canvas{
+  border: 1px solid lightgray;
+  margin-top: 15px;
+}
+body{
+  margin: 20px;
+}
+#clearButton{
+  width: 150px;
+  height: 50px;
+ 
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+#canvasWidth{
+  margin-top: 10px;
+  margin-left: -15px;
+  height: 20px;
+}
+#canvasHeight{
+  margin-top: 10px;
+  margin-left: -15px;
+  height: 20px;
+}
